@@ -1,0 +1,17 @@
+Create component
+
+->rfce
+
+sfc is used with 'Simple React Snippets
+
+Function component -> rnsf
+
+Const component native -> tsnf
+
+const function = () => {
+  return (
+    <div>
+      
+    </div>
+  );
+};

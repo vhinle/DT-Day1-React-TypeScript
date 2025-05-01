@@ -1,0 +1,111 @@
+/* Dafualt styles */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  background-color: #f5eedd;
+  margin: 0;
+  padding: 20px;
+}
+h1 {
+  color: #06202b;
+  font-weight: normal;
+  text-align: center;
+}
+h2 {
+  color: #555;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+/*Day 3 */
+.highlightedText {
+  background-color: green;
+  font-weight: bold;
+}
+
+.userContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* space between cards */
+  padding: 20px;
+}
+
+.userCard {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 150px; /* fixed width for columns */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center; /* center the name */
+  font-size: 16px;
+}
+
+/* Course Catalog CSS*/
+.course-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.course-card {
+  background-color: #f9f9f9;
+  border: 1px solid #7ae2cf;
+  border-radius: 8px;
+  padding: 10px;
+  width: 450px;
+  font-size: 16px;
+  height: 300px;
+  color: #333;
+  font-family: Montserrat, Arial, sans-serif;
+  height: 370px;
+}
+
+.card-title {
+  text-align: left;
+  color: #555;
+  font-size: 14px;
+}
+.course-card h2 {
+  color: #06202b;
+  font-size: 32px;
+}
+
+.highlighted {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.highlighted h2 {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.course-card p {
+  margin-top: 10px;
+}
+.course-tag {
+  border-radius: 16px;
+  padding: 16px;
+  background-color: orange;
+  color: white;
+  font-weight: 600;
+}
+p.tags {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.enroll-button {
+  background-color: #077a7d;
+  color: #f5eedd;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  min-width: 120px;
+  width: 70%;
+  max-width: 250px;
+  text-transform: uppercase;
+}
