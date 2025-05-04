@@ -5,12 +5,17 @@ import "./App.css";
 // import Part0, { Part2 } from "./Activity1";
 //import { HighlightedText, Dashboard } from "./components/Day3/Day3";
 //import CourseCatalog from "./components/Day3/Day3";
-import {
+/*import {
   MyCounter,
   MyInput,
   UserInfo,
   withLoader,
 } from "./components/Day4/Day4";
+
+import Timer from "./components/Timer/Timer";
+import BatchedCounter from "./components/Day5/Day5";
+*/
+import MovieReviews from "./components/Day5/MovieReviews";
 
 // const MyComponent = ({ lname, fname, mname }: { lname: string; fname: string; mname?: string }) => {
 //   return (
@@ -26,7 +31,11 @@ import {
 function App() {
   return (
     <div className="App">
-      <MyInput />
+      {/* day 5 
+      <BatchedCounter />*/}
+      <MovieReviews />
+
+      {/*<MyInput /> */}
 
       {/* 
       
@@ -41,6 +50,9 @@ function App() {
 
       {/* Course Catlog */}
       {/*<CourseCatalog />*/}
+
+      {/* Timer Project 
+      <Timer />*/}
     </div>
   );
 }
