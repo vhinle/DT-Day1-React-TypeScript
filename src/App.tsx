@@ -28,12 +28,14 @@ import MovieReviews from "./components/Day5/MovieReviews";
 
 //const UserInfoWithLoader = withLoader(UserInfo);
 
+import CheckoutPage from "./components/Day5/CheckoutPage";
 function App() {
   return (
     <div className="App">
       {/* day 5 
-      <BatchedCounter />*/}
-      <MovieReviews />
+      <BatchedCounter />
+      <MovieReviews /> */}
+      <CheckoutPage />
 
       {/*<MyInput /> */}
 
