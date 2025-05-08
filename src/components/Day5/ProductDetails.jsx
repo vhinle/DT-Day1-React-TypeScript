@@ -1,5 +1,3 @@
-import React from "react";
-
 // Displays product's name, description, and price
 export default function ProductDetails({ product }) {
   return (

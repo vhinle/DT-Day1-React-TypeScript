@@ -55,18 +55,7 @@ export default function CheckoutPage() {
   // TODO: Calculate total amount based on products with quantity > 0.
   //       If promoCode is exactly 'MAYTHE4THBWU', apply a 50% discount.
 
-  //loop through products and calculate total
-  // const [cartTotal, setCartTotal] = useState(0);
-
-  // const total = products.map((product) => {
-  //   if (product.quantity > 0) {
-  //     let subTotal = product.price * product.quantity;
-  //     setCartTotal(cartTotal + subTotal);
-  //     return subTotal;
-  //   }
-  //   return 0;
-  // });
-
+  
   // .reduce(...): This array method is used to accumulate a value (in this case, the total cost).
   // acc (short for "accumulator"): This keeps track of the running total as the array is processed.
   // acc + product.price * product.quantity: For each qualifying product, add the total price for

@@ -1,5 +1,3 @@
-import React from "react";
-
 // Final checkout button
 export default function CheckoutButton({ disabled, setOnCheckout }) {
   // Function to handle checkout button click

@@ -15,7 +15,8 @@ import "./App.css";
 import Timer from "./components/Timer/Timer";
 import BatchedCounter from "./components/Day5/Day5";
 */
-import MovieReviews from "./components/Day5/MovieReviews";
+
+//import MovieReviews from "./components/Day5/MovieReviews";
 
 // const MyComponent = ({ lname, fname, mname }: { lname: string; fname: string; mname?: string }) => {
 //   return (

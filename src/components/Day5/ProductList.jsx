@@ -1,4 +1,3 @@
-import React from "react";
 import ProductCard from "./ProductCard";
 
 // Maps over products and renders a ProductCard for each
