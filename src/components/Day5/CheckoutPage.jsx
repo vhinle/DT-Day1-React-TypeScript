@@ -52,20 +52,16 @@ export default function CheckoutPage() {
     );
   };
 
+
   // TODO: Calculate total amount based on products with quantity > 0.
   //       If promoCode is exactly 'MAYTHE4THBWU', apply a 50% discount.
 
-  
-  // .reduce(...): This array method is used to accumulate a value (in this case, the total cost).
-  // acc (short for "accumulator"): This keeps track of the running total as the array is processed.
-  // acc + product.price * product.quantity: For each qualifying product, add the total price for
-  //   that product (price × quantity) to the accumulator.
-
-  const subTotal = products.reduce((acc, product) => {
-    if (product.quantity > 0) {
-      return acc + product.price * product.quantity;
-    }
-    return acc;
+  // .reduce(...): This array method is used to accumulate a value 
+  // Ref: https://www.programiz.com/javascript/library/array/reduce
+  // total: This is the accumulator that holds the running total.
+  // product: This is the array of products being processed
+  const subTotal = products.reduce((total, product) => {
+    return total + (product.quantity > 0 ? product.quantity * product.price : 0);    
   }, 0);
 
   const discount = promoCode === "MAYTHE4THBWU" ? DISCOUNT_AMOUNT : 0;
@@ -73,7 +69,6 @@ export default function CheckoutPage() {
 
   // TODO: Determine if the checkout button should be disabled.
   //       It should be disabled if all quantities are 0.
-  //const isCheckoutDisabled = products.every((product) => product.quantity === 0);
   const isCheckoutDisabled = cartTotal === 0 ? true : false;
 
   return (
