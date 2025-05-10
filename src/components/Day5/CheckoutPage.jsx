@@ -37,6 +37,22 @@ export default function CheckoutPage() {
 
   // TODO: Create a function that updates quantity of a specific product by its ID.
   //       This should either increase or decrease the quantity (but never go below 0 or above 10).
+  // const updateQuantity = (id, action) => {
+  //   setProducts((prevProducts) =>
+  //     prevProducts.map((product) => {
+  //       if (product.id === id) {
+  //         let newQuantity = product.quantity;
+  //         if (action === "increase" && newQuantity < 10) {
+  //           newQuantity += 1;
+  //         } else if (action === "decrease" && newQuantity > 0) {
+  //           newQuantity -= 1;
+  //         }
+  //         return { ...product, quantity: newQuantity };
+  //       }
+  //       return product;
+  //     })
+  //   );
+  // };
   const updateQuantity = (id, action) => {
     setProducts((prevProducts) =>
       prevProducts.map((product) => {
