@@ -29,14 +29,19 @@ import BatchedCounter from "./components/Day5/Day5";
 
 //const UserInfoWithLoader = withLoader(UserInfo);
 
-import CheckoutPage from "./components/Day5/CheckoutPage";
+//import CheckoutPage from "./components/Day5/CheckoutPage";
+
+//Day 6
+import UserForm from "./components/Day6/Day6";
 function App() {
   return (
     <div className="App">
       {/* day 5 
       <BatchedCounter />
-      <MovieReviews /> */}
-      <CheckoutPage />
+      <MovieReviews /> 
+      <CheckoutPage />*/}
+
+      <UserForm />
 
       {/*<MyInput /> */}
 
