@@ -38,6 +38,7 @@ import BatchedCounter from "./components/Day5/Day5";
 // import { CounterWithEffect } from "./components/Day7/Day7";
 
 import { MultiTab } from "./components/Day8/MultiTab";
+import { OptimizationExample } from "./components/Day9/OptimizationExample";
 
 function App() {
   return (
@@ -54,7 +55,10 @@ function App() {
       {/* <CounterWithEffect /> */}
 
       {/* Day 08 */}
-      <MultiTab />
+      {/* <MultiTab /> */}
+
+      {/* Day 09 */}
+      <OptimizationExample />
 
       {/* 
 
