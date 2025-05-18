@@ -32,7 +32,13 @@ import BatchedCounter from "./components/Day5/Day5";
 //import CheckoutPage from "./components/Day5/CheckoutPage";
 
 //Day 6
-import UserForm from "./components/Day6/Day6";
+// import UserForm from "./components/Day6/Day6";
+
+// Day 7
+// import { CounterWithEffect } from "./components/Day7/Day7";
+
+import { MultiTab } from "./components/Day8/MultiTab";
+
 function App() {
   return (
     <div className="App">
@@ -41,12 +47,17 @@ function App() {
       <MovieReviews /> 
       <CheckoutPage />*/}
 
-      <UserForm />
+      {/* <UserForm /> */}
 
       {/*<MyInput /> */}
 
+      {/* <CounterWithEffect /> */}
+
+      {/* Day 08 */}
+      <MultiTab />
+
       {/* 
-      
+
       <MyCounter />
 
       <UserInfoWithLoader isLoading={true} name="Elvin" greeting="Kumusta" />
